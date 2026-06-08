@@ -9,30 +9,41 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dominion.css">
+  <style>
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+</style>
 </head>
 <body>
 
   <!-- ═══════════════════ NAVBAR ═══════════════════ -->
 <header class="navbar" id="navbar">
-    <div class="nav-inner container">
-      <a href="#top" class="nav-logo">
-       <img src="assets/dominion-logo.PNG" alt="Dominion Solutions Logo" class="nav-logo-img" style="width: 150px; height: auto;">
-        <div class="nav-logo-text">
-        </div>
-      </a>
-
-      <nav class="nav-menu" id="nav-menu">
-        <a href="#services" class="nav-link">Services</a>
-        <a href="#process" class="nav-link">Process</a>
-        <a href="#results" class="nav-link">Results</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#discovery" class="btn-nav-cta">Book Discovery Call</a>
-      </nav>
-
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
+  <div class="nav-inner container">
+    <a href="#top" class="nav-logo">
+      <img src="assets/dominion-logo.PNG" alt="Dominion Solutions Logo" class="nav-logo-img" style="width: 150px; height: auto;">
+      <div class="nav-logo-text">
+      </div>
+    </a>
+    <nav class="nav-menu" id="nav-menu">
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#results" class="nav-link">Results</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#discovery" class="btn-nav-cta">Book Discovery Call</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
   </header>
 
   <!-- ═══════════════════ HERO ═══════════════════ -->
